@@ -4,8 +4,8 @@ html,body {
 }
 
 #img-container {
-	position: relative;
-	z-index: 1;
+    position: relative;
+    z-index: 1;
     margin-top: 10%;
     text-align: center;
     -moz-animation: fadein 2s; /* Firefox */
@@ -140,6 +140,7 @@ input:focus{
     text-decoration: none;
     font-family: 'Bitter', serif;
     min-width: 120px;
+    -webkit-appearance: none;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
