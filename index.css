@@ -106,6 +106,7 @@ fieldset {
 input {
 	text-align: center;
 	background: #FFFFFF;
+	margin-top: 40px;
 	padding-top: 28px;
 	padding-bottom: 28px;
 	border-top: 2px solid #D3D3D3;
