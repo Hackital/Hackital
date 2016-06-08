@@ -1,0 +1,365 @@
+html,body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+#img-container {
+	position: relative;
+	z-index: 1;
+    margin-top: 10%;
+    text-align: center;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+#logo-img {
+    width: 28%;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+#logo-img:hover {
+	text-decoration: none;
+}
+
+div.description {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #0F1026;
+    margin-top: 30px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+div.line {
+    text-align: center;
+    left: 50%;
+    margin-top: 35px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+hr {
+	position: relative;
+    height: 2px; 
+    border: none; 
+    background-color: #ED1B24; 
+    width: 28%; 
+    text-align: center; 
+    margin: 0 auto;
+    top: 11px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+hr::after {
+	content: '';
+    position: absolute;
+    border: none; 
+    background-color: #FFFFFF;  
+    text-align: center;
+    margin: 0 auto;
+    height: 3px;
+    width: 150px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+         transform: translateX(-50%);
+}
+
+div.date {
+	position: relative;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #0F1026;
+    margin-top: 0px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+section {
+	margin-top: 1%;
+	text-align: center;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+fieldset {
+    width: px;
+    border: none;
+    margin-top: 40px;
+}
+
+input {
+	text-align: center;
+	background: #FFFFFF;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	border-top: 2px solid #D3D3D3;
+	border-left: 2px solid #D3D3D3;
+	border-right: 2px solid #D3D3D3;
+	border-color: #D3D3D3;
+	font-size: 12px;
+	border-bottom: 2px solid #D3D3D3;
+	width: 28%;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+input#email {
+	font-family: 'Bitter', serif;
+}
+
+input:focus{
+    outline: none;
+    font-size: 14px;
+}
+
+.button {
+    cursor: pointer;
+    color: #FAFAFA;
+    background: #ED1B24;
+    border: 2px solid #ED1B24;
+    font-size: 12px;
+    padding: 30px 125px 30px 125px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-top: 1%;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    min-width: 120px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+
+    transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+}
+
+.button:hover {
+    color: #FAFAFA;
+    background-color: #0F1026;
+    border: 3px solid #0F1026;
+    -ms-transform: scale(1.03); /* IE 9 */
+	-webkit-transform: scale(1.03); /* Chrome, Safari, Opera */
+	transform: scale(1.03);
+}
+
+h2 {
+    margin-top: 10%;
+    color: #0F1026;
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+a.email {
+	text-decoration: none;
+    color: #ED1B24;
+    z-index: 2;
+    position: relative;
+    transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+}
+
+a.email:hover {
+	opacity: .5;
+	-moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+}
+
+
+a.twitter {
+    text-decoration: none;
+    color: #ED1B24;
+    z-index: 2;
+    position: relative;
+    transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+}
+
+a.twitter:hover {
+	opacity: .5;
+	-moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+}
+
+span.copyright {
+	word-spacing: 0px;
+	font-family: 'Bitter', serif;
+	font-size: 12px;
+	font-weight: 500;	
+	float: right;
+	margin-right: 50px;
+}
+
+span.links {
+	word-spacing: 0px;
+	font-family: 'Bitter', serif;
+	font-size: 12px;
+	font-weight: 500;	
+	float: left;
+	margin-left: 50px;
+	word-spacing: 20px;
+}
+
+#footer {
+	float: left;
+    display: inline;
+    border-top: 2px solid #D3D3d3;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+	background-color: #F9F9F9;
+	color: #DBDBDB;
+	font-size: 12px;
+	font-family: 'Bitter', serif;
+	font-weight: 500;
+}
+
+#footer a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #DBDBDB;
+	transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+}
+
+#footer a:hover {
+	color: #ED1B24;
+	text-decoration: none;
+	opacity: .8;
+	-moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+}
+
+::selection {
+    background: #fff9e9;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+#logo-img {
+    width: 50%;
+}
+
+div.description {
+	font-size: 11px;
+}
+
+hr { 
+    width: 80%;
+}
+
+hr::after {
+	content: '';
+    position: absolute;
+    border: none; 
+    background-color: #FFFFFF;  
+    text-align: center;
+    margin: 0 auto;
+    height: 3px;
+    width: 125px;
+}
+
+div.date {
+	font-size: 10px;
+	margin-top: 1%;
+}
+
+input {
+	width: 92%;
+	font-size: 10px; 
+	text-align: center;
+	background: #FFFFFF;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	border-top: 2px solid #D3D3D3;
+	border-left: 2px solid #D3D3D3;
+	border-right: 2px solid #D3D3D3;
+	border-color: #D3D3D3;
+	border-bottom: 2px solid #D3D3D3;
+}
+
+.button {
+	width: 85%;
+	font-size:10px;
+	padding: 30px 0px 30px 0px;
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
