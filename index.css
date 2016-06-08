@@ -330,7 +330,7 @@ div.date {
 }
 
 input {
-	width: 92%;
+	width: 90%;
 	font-size: 10px; 
 	text-align: center;
 	background: #FFFFFF;
@@ -344,7 +344,7 @@ input {
 }
 
 .button {
-	width: 85%;
+	width: 90%;
 	font-size:10px;
 	padding: 30px 0px 30px 0px;
 }
