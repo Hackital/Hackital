@@ -336,7 +336,7 @@ div.date {
 }
 
 input {
-	width: calc(80% - 6px);
+	width: 80%;
 	font-size: 10px; 
 	text-align: center;
 	background: #FFFFFF;
