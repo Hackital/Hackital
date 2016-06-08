@@ -128,6 +128,7 @@ input:focus{
 }
 
 .button {
+    outline: none;
     cursor: pointer;
     color: #FAFAFA;
     background: #ED1B24;
