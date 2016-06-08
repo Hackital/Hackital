@@ -145,7 +145,7 @@ input:focus{
     display: inline-block;
     text-decoration: none;
     font-family: 'Bitter', serif;
-    width: 28%;
+    width: 28.5%;
     min-width: 120px;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
