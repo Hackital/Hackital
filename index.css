@@ -131,6 +131,7 @@ input:focus{
 }
 
 .button {
+    box-shadow: none;
     display: block;
     outline: none;
     cursor: pointer;
