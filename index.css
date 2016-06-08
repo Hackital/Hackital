@@ -75,7 +75,7 @@ hr::after {
 }
 
 div.date {
-	position: relative;
+    position: relative;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -87,8 +87,9 @@ div.date {
 }
 
 section {
-	margin-top: 1%;
-	text-align: center;
+    margin-top: 1%;
+    padding-bottom: 20%;
+    text-align: center;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
@@ -224,13 +225,13 @@ span.links {
 
 #footer {
 	float: left;
-    display: inline;
-    border-top: 2px solid #D3D3d3;
-	position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
+        display: inline;
+        border-top: 2px solid #D3D3d3;
+	position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
 	background-color: #F9F9F9;
 	color: #DBDBDB;
 	font-size: 12px;
