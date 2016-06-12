@@ -235,7 +235,7 @@ span.links {
 	font-weight: 500;	
 	float: left;
 	margin-left: 15%;
-	word-spacing: 2px;
+	word-spacing: 1px;
 }
 
 #footer {
@@ -269,10 +269,6 @@ span.links {
 	opacity: .8;
 	-moz-transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out;
-}
-
-span.copyright {
-	margin-top: 5%;
 }
 
 ::selection {
