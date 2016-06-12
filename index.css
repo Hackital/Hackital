@@ -349,11 +349,11 @@ input {
 	background: #FFFFFF;
 	padding-top: 28px;
 	padding-bottom: 28px;
-	border-top: 2px solid #D3D3D3;
-	border-left: 2px solid #D3D3D3;
-	border-right: 2px solid #D3D3D3;
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
 	border-color: #D3D3D3;
-	border-bottom: 2px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
 }
 
 .button {
