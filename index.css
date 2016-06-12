@@ -221,6 +221,10 @@ span.copyright {
 	margin-right: 50px;
 }
 
+@media screen and (max-width: 480px) {
+	margin-right:36%;
+}
+
 span.links {
 	word-spacing: 0px;
 	font-family: 'Inconsolata', sans-serif;
