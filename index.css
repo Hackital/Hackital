@@ -239,14 +239,13 @@ span.links {
 }
 
 #footer {
-	float: left;
-        display: inline;
-        border-top: 2px solid #D5D3d3;
+    display: inline;
+    border-top: 2px solid #D5D3d3;
 	position: fixed;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
 	background-color: #F9F9F9;
 	color: #9B9B9B;
 	font-size: 12px;
@@ -255,6 +254,7 @@ span.links {
 }
 
 #footer a {
+	margin-right: 35px;
 	cursor: pointer;
 	text-decoration: none;
 	color: #9B9B9B;
@@ -269,6 +269,10 @@ span.links {
 	opacity: .8;
 	-moz-transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out;
+}
+
+span.copyright {
+	margin-top: 5%;
 }
 
 ::selection {
