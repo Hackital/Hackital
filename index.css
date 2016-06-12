@@ -1,23 +1,23 @@
 html,body {
-    margin: 0;
-    background-color: #FFFFFF;
+	 margin: 0;
+    	background-color: #FFFFFF;
 }
 
 #img-container {
-	position: relative;
+  	position: relative;
 	z-index: 1;
-    margin-top: 10%;
-    text-align: center;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    	margin-top: 10%;
+    	text-align: center;
+	 -moz-animation: fadein 2s; /* Firefox */
+	 -webkit-animation: fadein 2s; /* Safari and Chrome */
+	 -o-animation: fadein 2s; /* Opera */
 }
 
 #logo-img {
-    width: 28%;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+	width: 28%;
+	-moz-animation: fadein 2s; /* Firefox */
+	-webkit-animation: fadein 2s; /* Safari and Chrome */
+	-o-animation: fadein 2s; /* Opera */
 }
 
 #logo-img:hover {
@@ -25,15 +25,15 @@ html,body {
 }
 
 div.description {
-    text-align: center;
-    font-family: 'Inconsolata', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: #0F1026;
-    margin-top: 30px;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+	text-align: center;
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #0F1026;
+    	margin-top: 30px;
+    	-moz-animation: fadein 2s; /* Firefox */
+    	-webkit-animation: fadein 2s; /* Safari and Chrome */
+        -o-animation: fadein 2s; /* Opera */
 }
 
 div.line {
@@ -46,7 +46,7 @@ div.line {
 }
 
 hr {
-	position: relative;
+    position: relative;
     height: 2px; 
     border: none; 
     background-color: #ED1B24; 
@@ -60,7 +60,7 @@ hr {
 }
 
 hr::after {
-	content: '';
+    content: '';
     position: absolute;
     border: none; 
     background-color: #FFFFFF;  
@@ -234,14 +234,14 @@ span.links {
 #footer {
 	float: left;
         display: inline;
-        border-top: 2px solid #D3D3d3;
+        border-top: 2px solid #D5D3d3;
 	position: fixed;
         right: 0;
         bottom: 0;
         left: 0;
         padding: 1rem;
 	background-color: #F9F9F9;
-	color: #DBDBDB;
+	color: #9B9B9B;
 	font-size: 12px;
 	font-family: 'Inconsolata', sans-serif;
 	font-weight: 500;
@@ -250,10 +250,10 @@ span.links {
 #footer a {
 	cursor: pointer;
 	text-decoration: none;
-	color: #DBDBDB;
+	color: #9B9B9B;
 	transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
-    -webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
 }
 
 #footer a:hover {
