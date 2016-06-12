@@ -356,6 +356,7 @@ input {
 	border-right: 1px solid #D3D3D3;
 	border-color: #D3D3D3;
 	border-bottom: 1px solid #D3D3D3;
+	border-radius: 0px;
 }
 
 .button {
