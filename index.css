@@ -320,7 +320,7 @@ span.links {
 }
 
 div.description {
-    font-size: 11px;
+	font-size: 11px;
 }
 
 hr { 
@@ -328,7 +328,7 @@ hr {
 }
 
 hr::after {
-    content: '';
+	content: '';
     position: absolute;
     border: none; 
     background-color: #FFFFFF;  
