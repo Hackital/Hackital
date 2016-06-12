@@ -222,7 +222,9 @@ span.copyright {
 }
 
 @media screen and (max-width: 480px) {
-	margin-right:36%;
+	span.copyright{
+		margin-right:36%;
+	}
 }
 
 span.links {
