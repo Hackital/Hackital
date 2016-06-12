@@ -110,12 +110,12 @@ input {
 	margin-top: 40px;
 	padding-top: 28px;
 	padding-bottom: 28px;
-	border-top: 2px solid #D3D3D3;
-	border-left: 2px solid #D3D3D3;
-	border-right: 2px solid #D3D3D3;
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
 	border-color: #D3D3D3;
 	font-size: 12px;
-	border-bottom: 2px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
 	width: 28%;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -312,6 +312,10 @@ span.links {
     width: 50%;
 }
 
+span.copyright{
+	margin-right:35%;
+}
+
 div.description {
 	font-size: 11px;
 }
@@ -343,11 +347,11 @@ input {
 	background: #FFFFFF;
 	padding-top: 28px;
 	padding-bottom: 28px;
-	border-top: 2px solid #D3D3D3;
-	border-left: 2px solid #D3D3D3;
-	border-right: 2px solid #D3D3D3;
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
 	border-color: #D3D3D3;
-	border-bottom: 2px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
 }
 
 .button {
