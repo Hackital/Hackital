@@ -39,7 +39,7 @@ div.description {
 div.line {
     text-align: center;
     left: 50%;
-    margin-top: 35px;
+    margin-top: 32px;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
@@ -53,7 +53,7 @@ hr {
     width: 28%; 
     text-align: center; 
     margin: 0 auto;
-    top: 11px;
+    top: 10px;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
@@ -62,17 +62,17 @@ hr {
 hr::after {
     content: '';
     position: absolute;
-    border: none; 
-    background-color: #FFFFFF;  
+    border: none;
+    background-color: #FFFFFF;
     text-align: center;
     margin: 0 auto;
     height: 3px;
-    width: 150px;
+    width: 255px;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
-     -ms-transform: translateX(-50%);
-      -o-transform: translateX(-50%);
-         transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 div.date {
